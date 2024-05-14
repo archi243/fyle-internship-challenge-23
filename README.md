@@ -1,43 +1,34 @@
-# Fyle Frontend Challenge
+# GitHub Repository Explorer
 
-## Who is this for?
+GitHub Repository Explorer is a single-page application (SPA) built with Angular that allows users to search for public repositories of GitHub users.
 
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
+## Features
 
-## Why work at Fyle?
+- **Search by Username:** Enter a GitHub username to search for the public repositories of that user.
+- **Display Repositories:** View a list of public repositories belonging to the searched user.
+- **Clickable Links:** Click on repository names to open them in a new tab on GitHub.
 
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
+## Technologies Used
 
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
-
-## Challenge outline
-
-This challenge involves implementing application using github api. 
-
-The services that you need to use are already implemented - check out ApiService.
-
-You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
-
-__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
-
-## What happens next?
-
-You will hear back within 48 hours from us via email.
+- Angular: Front-end framework for building the SPA.
+- HTML/CSS: Markup and styling languages for structuring and styling the application.
+- HttpClient: Angular module for making HTTP requests to the GitHub API.
+- FormsModule: Angular module for two-way data binding and form handling.
 
 ## Installation
 
-1. Fork this repository to your github account.
-2. Clone the forked repository and proceed with steps mentioned below.
+1. Clone the repository: bash: git clone https://github.com/your-username/github-repo-explorer.git
 
-### Install requirements
-* Install angular cli [Ref](https://angular.io/cli)
-* `npm install` in this repository 
+2. Navigate to the project directory: bash:cd github-repo-explorer
 
-## Development server
+3. Install dependencies: bash:npm install
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+4. Serve the application: bash:ng serve
 
-## Further help
+5. Open your browser and navigate to `http://localhost:4200/` to view the application.
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+## Usage
+
+1. Enter a GitHub username in the input field and click the "Search" button.
+2. View the list of public repositories belonging to the searched user.
+3. Click on repository names to open them in a new tab on GitHub.
